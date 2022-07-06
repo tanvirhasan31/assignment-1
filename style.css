@@ -1,0 +1,25 @@
+.frist{
+   background-image: url(images/donation2.jpg);
+   font-family: 'Poppins', sans-serif;
+   background-repeat: no-repeat;
+   background-position: center; 
+}
+.donet{
+    text-align: center;
+    padding: 80px 50px;
+    justify-content: center;
+
+}
+h1{
+    color: black;
+    font-size: 40px;
+}
+p{
+    color: blanchedalmond;
+}
+.button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}

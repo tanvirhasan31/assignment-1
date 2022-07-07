@@ -64,6 +64,10 @@ hr{
 }
 .btn button{
     background-color: tomato;
+    border: none;
+    border-radius: 3px;
+    color: white;
+
 }
 
 /* third sec  */
@@ -71,6 +75,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
 }
 .box{
     display: flex;
@@ -89,9 +94,21 @@ hr{
 #box-3{
     background-color: rgb(255, 255, 194);
 }
+.extra{
+    text-align: center;
+    margin: 10px;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+    box-shadow: 5px 5px 15px gray;
+    margin-top: 40px;
+}
+.extra p{
+    text-align: justify;
+}
  /* update  */
 #update-sec{
-    margin-bottom: 150px;
+    margin-bottom: 150px; 
+    margin-top: 50px;
 }
 .update{
     text-align: center;
@@ -118,4 +135,15 @@ hr{
 .subscribe p{
     background-color: tomato;
     color: white;
+}
+.footer{
+    background-color: rgb(2, 2, 18);
+    color: tomato;
+    text-align: center;
+}
+.footer p{
+    color: white;
+}
+.footer h1{
+    font-family: 'Lobster', cursive;
 }

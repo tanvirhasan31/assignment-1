@@ -1,6 +1,9 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* first  */
 .frist{
    background-image: url(images/donation2.jpg);
-   font-family: 'Poppins', sans-serif;
    background-repeat: no-repeat;
    background-position: center; 
 }
@@ -10,11 +13,11 @@
     justify-content: center;
 
 }
-h1{
+.donet h1{
     color: black;
     font-size: 40px;
 }
-p{
+.donet p{
     color: blanchedalmond;
 }
 .button{
@@ -22,4 +25,97 @@ p{
     background-color: tomato;
     border: none;
     border-radius: 5px;
+}
+
+/* second */
+.donate{
+    margin-top: 50px;
+}
+.donate-today{
+    text-align: center;
+    justify-content: center;
+}
+.taka{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.half-width{
+    padding: 15px 7px;
+    margin: 6px 7px;
+    background-color: whitesmoke;
+    color: #837e7e;
+}
+#two-hundred{
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: #fecbcb;
+    color: red;
+}
+hr{
+    margin: 2px 150px;
+}
+.btn{
+   text-align: center;
+   color: white;
+   border: none;
+   border-radius: 3px;
+}
+.btn button{
+    background-color: tomato;
+}
+
+/* third sec  */
+.full-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+
+}
+.boxes{
+    padding: 70px 22px;
+    margin: 6px 15px;
+}
+#box-1{
+    background-color: rgb(233, 255, 255);
+}
+#box-2{
+    background-color: rgb(255, 233, 238);
+}
+#box-3{
+    background-color: rgb(255, 255, 194);
+}
+ /* update  */
+#update-sec{
+    margin-bottom: 150px;
+}
+.update{
+    text-align: center;
+}
+.email-subscribe{
+    margin: 37px 100px;
+    background-color: rgb(255, 243, 220);
+}
+.both-divisions{
+    display: flex;
+    justify-content: center;}
+
+.email p{
+    text-align: start;
+    padding-left: 3px;
+    padding-right: 194px;
+    background-color: rgb(219 216 216);
+    color: rgb(172 172 172)}
+
+.common{
+    padding: 11px 67px;
+    margin: 100px 0px;
+}
+.subscribe p{
+    background-color: tomato;
+    color: white;
 }
